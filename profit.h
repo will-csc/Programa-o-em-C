@@ -1,0 +1,1 @@
+void profit(float, float, float);
