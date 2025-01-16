@@ -11,15 +11,15 @@ struct girlfriend{
 };
 
 void main(){
-	struct girlfriend tamiles;
+	struct girlfriend qualquer;
 
-	strcpy(tamiles.name,"Tamiles");
-	strcpy(tamiles.boyfriend,"William");
-	tamiles.hot = 1000;
-	tamiles.children = 3;
-	tamiles.age = 18;
-	tamiles.marriage_years = 45;
+	strcpy(qualquer.name,"Qualquer");
+	strcpy(qualquer.boyfriend,"William");
+	qualquer.hot = 1000;
+	qualquer.children = 3;
+	qualquer.age = 18;
+	qualquer.marriage_years = 45;
 
-	printf("\nYour girlfriend name is: %s with %d age\nAnd your name is: %s",tamiles.name,tamiles.age,tamiles.boyfriend);
-	printf("\nShe is hot like: %d, and you two will have %d children, %d years of marriage",tamiles.hot,tamiles.children,tamiles.marriage_years);
+	printf("\nYour girlfriend name is: %s with %d age\nAnd your name is: %s",qualquer.name,qualquer.age,qualquer.boyfriend);
+	printf("\nShe is hot like: %d, and you two will have %d children, %d years of marriage",qualquer.hot,qualquer.children,qualquer.marriage_years);
 }
