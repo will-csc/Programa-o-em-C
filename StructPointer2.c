@@ -9,16 +9,16 @@ void main(){
     } girlf;
     
     
-    girlf tamiles = {0,0,0};
-    girlf *ptrTami;
+    girlf girl = {0,0,0};
+    girlf *ptrgirl;
     
-    ptrTami = &tamiles;
+    ptrgirl = &girl;
     
-    strcpy(ptrTami->name,"Tamiles");
-    strcpy(ptrTami->boyfriend,"William");
-    ptrTami->age = 18;
+    strcpy(ptrgirl->name,"Tamiles");
+    strcpy(ptrgirl->boyfriend,"William");
+    ptrgirl->age = 18;
     
-    printf("\nThe name of your girlfriend is: %s",tamiles.name);
-    printf("\nYour girlfriend's boyfriend name is: %s",tamiles.boyfriend);
-    printf("\nThe age of your girlfriend is: %d",tamiles.age);
+    printf("\nThe name of your girlfriend is: %s",girl.name);
+    printf("\nYour girlfriend's boyfriend name is: %s",girl.boyfriend);
+    printf("\nThe age of your girlfriend is: %d",girl.age);
 }
