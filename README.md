@@ -3,6 +3,8 @@
 Este repositório contém os códigos-fonte em C utilizados no livro **"C Programming for the Absolute Beginner, Second Edition"** de **Michael Vine**. Ele serve como um recurso complementar para estudantes e programadores iniciantes que desejam praticar e entender melhor os conceitos apresentados no livro.
 
 ## 📖 Sobre o Livro
+![image](https://github.com/user-attachments/assets/7bb5e906-909c-44f1-ae37-cba848c28be7)
+
 
 **Autor:** Michael Vine  
 **Edição:** Segunda  
